@@ -49,7 +49,7 @@ convert_loop:
     mov edx, eax      
     int 0x80
 
-    ; Exit the program
+    ; Fechar programa
     mov eax, 1
     xor ebx, ebx
     int 0x80
